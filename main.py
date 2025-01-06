@@ -84,7 +84,7 @@ async def generate_qr_code(booking_id: str):
             }
         )
 
-        return {"message": "QR code generated successfully", "qr_code_data": qr_data}
+        return {"message": "QR code generated successfully", "qr_code_image": qr_code_image}
 
     except Exception as e:
         raise HTTPException(
