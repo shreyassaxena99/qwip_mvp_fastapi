@@ -78,15 +78,6 @@ Generate a QR code for a booking.
   ```json
   {
     "message": "QR code generated successfully",
-    "qr_code_data": {
-      "booking_id": "booking123",
-      "pod_id": "pod001",
-      "user_id": "user123",
-      "start_time": "2024-12-30T08:00:00",
-      "end_time": "2024-12-30T09:00:00",
-      "signature": "secure_signature"
-    },
-    "qr_code_image": "BASE64_ENCODED_IMAGE"
   }
   ```
 - **Error Responses**:
